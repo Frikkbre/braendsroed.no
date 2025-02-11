@@ -42,3 +42,21 @@ main {
     flex-grow: 1;
     text-align: center;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between videos as needed */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between videos as needed */
+}
+
+.video-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the gap between videos as needed */
+}
