@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake spell</title>
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="../main.css">
+  <link rel="icon" href="../img/drizzy.jpg" type="image/jpg">
+  <style>
+    canvas {
+      border: 1px solid black;
+      display: block;
+      margin: 0 auto;
+    }
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+    }
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar li a:hover {
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="../index.html">Hjem</a></li>
+    <li><a href="snake.html">snake</a></li>
+    <li><a href="brainrot.html">Brainrot</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+</nav>
+
+<div class="text-container">
+  <h1 class="animate__animated animate__backInDown">Snake spell</h1>
+  <h3 class="animate__animated animate__backInDown">Start med en av piltastene</h3>
+</div>
+
+<canvas id="gameCanvas" width="400" height="400"></canvas>
+<script src="snake.js"></script>
+</body>
+</html>
